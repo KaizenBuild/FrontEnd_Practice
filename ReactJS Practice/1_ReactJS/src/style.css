@@ -1,0 +1,84 @@
+*{
+    background: #cfe5ea;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p, li{
+    font-size: 18px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(232, 85, 85);
+}
+h2{
+    color: rgb(235, 156, 28);
+}
+
+h3{
+    color: rgb(36, 81, 216);
+}
+h4{
+    color: rgb(27, 105, 70);
+}
+      
+      /* functional component  */
+.fc{
+    background: rgb(235, 87, 24);
+    display: inline;
+    padding: 15px;
+    color: white;
+    border-radius: 50px;
+}
+
+        /* table  */
+
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+th, td, tr{
+    padding: 20px 40px;
+}
+th{
+    font-size: 20px;
+    color: rgb(36, 101, 24);
+}
+
+        /* children  */
+
+.child{
+    text-align: center;
+    background: rgb(216, 211, 119);
+    padding: 20px;
+    padding: 10px;
+}
+
+        /* images  */
+
+.i{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+        /* buttons  */
+
+button{
+    padding: 15px;
+    background: rgb(76, 93, 187);
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+        /* hooks */
+
+section{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
