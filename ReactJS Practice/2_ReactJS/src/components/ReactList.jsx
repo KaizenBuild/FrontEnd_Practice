@@ -14,6 +14,7 @@ import Home from '../pages/Home'
 import { createBrowserRouter, RouterProvider, Route, Router } from 'react-router-dom'
 import About from '../pages/About'
 import ReactStyling from './ReactStyling'
+import ReactHooks from './ReactHooks'
 
 
 export const ReactList = () => {
@@ -91,13 +92,10 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>React Hooks</h2>
-
+            <ReactHooks/>
             <br /> <hr />
 
                 <ol>
-                    <li><h3>What is a Hook?</h3></li>
-
-                    <br /> <hr />
 
                     <li><h3>React useState Hook</h3></li>
 
