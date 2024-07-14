@@ -1,10 +1,11 @@
 import React from 'react'
+import ReactHome from './ReactHome'
 
 export const ReactList = () => {
     return (
         <ul>
             <li><h2>What is react?</h2></li>
-
+            <ReactHome/>
             <br /> <hr />
 
             <li><h2>React Component</h2></li>
@@ -51,39 +52,39 @@ export const ReactList = () => {
                     <li><h3>What is a Hook?</h3></li>
 
                     <br /> <hr />
-                    
+
                     <li><h3>React useState Hook</h3></li>
 
                     <br /> <hr />
-                    
+
                     <li><h3>React useEffect Hooks</h3></li>
 
                     <br /> <hr />
-                    
+
                     <li><h3>React useContext Hook</h3></li>
 
                     <br /> <hr />
-                    
+
                     <li><h3>React useRef Hook</h3></li>
 
                     <br /> <hr />
-                    
+
                     <li><h3>React useReducer Hook</h3></li>
 
                     <br /> <hr />
-                    
+
                     <li><h3>React useCallback Hook</h3></li>
 
                     <br /> <hr />
-                    
+
                     <li><h3>React useMemo Hook</h3></li>
 
                     <br /> <hr />
-                    
+
                     <li><h3>React Custom Hooks</h3></li>
 
                     <br /> <hr />
-                    
+
                 </ol>
             </li>
         </ul>
