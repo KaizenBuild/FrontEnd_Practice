@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactHome from './ReactHome'
 import ReactComponents from './ReactComponents'
+import ReactProps from './ReactProps'
 
 export const ReactList = () => {
     return (
@@ -14,7 +15,7 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>React Props</h2></li>
-
+            <ReactProps name="Hey, I am Prop"/>
             <br /> <hr />
 
             <li><h2>React Events</h2></li>
