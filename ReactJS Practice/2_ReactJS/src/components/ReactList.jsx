@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactHome from './ReactHome'
+import ReactComponents from './ReactComponents'
 
 export const ReactList = () => {
     return (
@@ -9,7 +10,7 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>React Component</h2></li>
-
+            <ReactComponents/>
             <br /> <hr />
 
             <li><h2>React Props</h2></li>
