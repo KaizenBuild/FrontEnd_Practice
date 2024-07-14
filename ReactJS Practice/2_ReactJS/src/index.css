@@ -6,6 +6,10 @@
 body, html{
     background-color: #dff0f5;
 }
+::selection{
+    background-color: #d1f130;
+    color: red;
+}
 h1{
     color: #1679AB;
     text-align: center;

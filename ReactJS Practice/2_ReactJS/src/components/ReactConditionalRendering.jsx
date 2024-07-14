@@ -16,7 +16,7 @@ const ReactConditionalRendering = () => {
             <ul>
                 <li><ReactIfStatement/></li> <br /> <hr />
                 <li><ReactTernaryOperator/></li> <br /> <hr />
-                <li><ReactAndAndOperator/></li> <br /> <hr />
+                <li><ReactAndAndOperator/></li> <br />
             </ul>
         </div>
     )
