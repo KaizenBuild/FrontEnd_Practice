@@ -31,3 +31,15 @@ li{
 button{
     padding: 5px 10px;
 }
+
+img{
+    width: 40%;
+    height: 100%;
+}
+.imgContainer{
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

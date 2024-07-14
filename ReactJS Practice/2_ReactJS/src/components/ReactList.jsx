@@ -3,6 +3,7 @@ import ReactHome from './ReactHome'
 import ReactComponents from './ReactComponents'
 import ReactProps from './ReactProps'
 import ReactEvents from './ReactEvents'
+import ReactImages from './ReactImages'
 
 export const ReactList = () => {
     return (
@@ -24,7 +25,7 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>React Adding Images</h2></li>
-
+            <ReactImages/>
             <br /> <hr />
 
             <li><h2>React Conditional Rendering</h2></li>
