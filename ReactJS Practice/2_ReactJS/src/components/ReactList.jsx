@@ -13,6 +13,7 @@ import Contact from '../pages/Contact'
 import Home from '../pages/Home'
 import { createBrowserRouter, RouterProvider, Route, Router } from 'react-router-dom'
 import About from '../pages/About'
+import ReactStyling from './ReactStyling'
 
 
 export const ReactList = () => {
@@ -86,7 +87,7 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>Styling React Using CSS</h2></li>
-
+            <ReactStyling/>
             <br /> <hr />
 
             <li><h2>React Hooks</h2>
