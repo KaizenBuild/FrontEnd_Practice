@@ -7,8 +7,42 @@ import ReactImages from './ReactImages'
 import ReactConditionalRendering from './ReactConditionalRendering'
 import ReactListExplain from './ReactListExplain'
 import ReactForms from './ReactForms'
+import Navbar from './Navbar'
+import Login from '../pages/Login'
+import Contact from '../pages/Contact'
+import Home from '../pages/Home'
+import { createBrowserRouter, RouterProvider, Route, Router } from 'react-router-dom'
+import About from '../pages/About'
+
 
 export const ReactList = () => {
+
+    const router = createBrowserRouter([
+        {
+            path: "/",
+            element: <Navbar/>,
+            children: [
+                {
+                    path: "/about",
+                    element : <About/>
+                },
+                {
+                    path: "/contact",
+                    element : <Contact/>
+                },
+                {
+                    path: "/login",
+                    element : <Login/>
+                },
+                {
+                    path: "/home",
+                    element : <Home/>
+                },
+            ]
+        }
+    ])
+
+
     return (
         <ul>
             <li><h2>What is react?</h2></li>
@@ -44,7 +78,7 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>React Router</h2></li>
-
+            <RouterProvider router={router} />
             <br /> <hr />
 
             <li><h2>React Memo</h2></li>
