@@ -16,6 +16,7 @@ const ReactuseState = () => {
         <li>The React <b>useState</b> Hook allows us to track state in a function component.</li>
         <li>State generally refers to data or properties that need to be tracking in an application.</li>
         <li><b><i>useState allows us to add state to functional components.</i></b></li>
+        <li>The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of these!</li>
         <li>useState accepts an initial state and returns two values:</li>
         <ul>
             <li>The current state.</li>
