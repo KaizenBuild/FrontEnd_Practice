@@ -2,6 +2,7 @@ import React from 'react'
 import ReactHome from './ReactHome'
 import ReactComponents from './ReactComponents'
 import ReactProps from './ReactProps'
+import ReactEvents from './ReactEvents'
 
 export const ReactList = () => {
     return (
@@ -19,6 +20,10 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>React Events</h2></li>
+            <ReactEvents/>
+            <br /> <hr />
+
+            <li><h2>React Adding Images</h2></li>
 
             <br /> <hr />
 
