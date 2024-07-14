@@ -15,6 +15,7 @@ import { createBrowserRouter, RouterProvider, Route, Router } from 'react-router
 import About from '../pages/About'
 import ReactStyling from './ReactStyling'
 import ReactHooks from './ReactHooks'
+import ReactuseState from './ReactuseState'
 
 
 export const ReactList = () => {
@@ -98,7 +99,7 @@ export const ReactList = () => {
                 <ol>
 
                     <li><h3>React useState Hook</h3></li>
-
+                    <ReactuseState/>
                     <br /> <hr />
 
                     <li><h3>React useEffect Hooks</h3></li>
