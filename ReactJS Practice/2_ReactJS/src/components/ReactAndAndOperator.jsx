@@ -9,8 +9,10 @@ const ReactAndAndOperator = () => {
       <h3>React && Operator</h3>
       <ul>
         <li>The && operator is a concise way to conditionally render elements.</li>
-        <li>The && operator is a great way to conditionally render elements in React when you only need to render something if a condition is true. If the condition is false, it simply doesn't render anything.</li>
-        <li>after && we write only the true conditions, we don't write the falsee condition</li>
+        <li>The && operator is a great way to conditionally render elements in React when you only need to render something if a condition is true. </li>
+        <li>If the <b> condition is false, it simply doesn't render anything.</b></li>
+        <li>after && we write only the true conditions, we don't write the false condition</li>
+        <li><b><i>condition && True_Output</i></b></li>
       </ul>
 
       Example of React && Operator :- <b>{isLoggedIn && "Log In"}</b>
