@@ -4,6 +4,7 @@ import ReactComponents from './ReactComponents'
 import ReactProps from './ReactProps'
 import ReactEvents from './ReactEvents'
 import ReactImages from './ReactImages'
+import ReactConditionalRendering from './ReactConditionalRendering'
 
 export const ReactList = () => {
     return (
@@ -29,7 +30,7 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>React Conditional Rendering</h2></li>
-
+            <ReactConditionalRendering/>
             <br /> <hr />
 
             <li><h2>React Lists</h2></li>
