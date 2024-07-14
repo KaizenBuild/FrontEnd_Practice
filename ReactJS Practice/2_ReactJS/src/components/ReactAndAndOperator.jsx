@@ -6,7 +6,7 @@ const ReactAndAndOperator = () => {
 
   return (
     <div>
-      <h3>React && Operator</h3>
+      <h3>React Logical && Operator</h3>
       <ul>
         <li>The && operator is a concise way to conditionally render elements.</li>
         <li>The && operator is a great way to conditionally render elements in React when you only need to render something if a condition is true. </li>
