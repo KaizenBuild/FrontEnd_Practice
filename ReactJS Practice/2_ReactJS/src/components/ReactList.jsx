@@ -6,6 +6,7 @@ import ReactEvents from './ReactEvents'
 import ReactImages from './ReactImages'
 import ReactConditionalRendering from './ReactConditionalRendering'
 import ReactListExplain from './ReactListExplain'
+import ReactForms from './ReactForms'
 
 export const ReactList = () => {
     return (
@@ -39,7 +40,7 @@ export const ReactList = () => {
             <br /> <hr />
 
             <li><h2>React Forms</h2></li>
-
+            <ReactForms/>
             <br /> <hr />
 
             <li><h2>React Router</h2></li>
