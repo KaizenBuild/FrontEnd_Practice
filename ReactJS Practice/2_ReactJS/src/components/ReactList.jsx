@@ -16,6 +16,7 @@ import About from '../pages/About'
 import ReactStyling from './ReactStyling'
 import ReactHooks from './ReactHooks'
 import ReactuseState from './ReactuseState'
+import ReactuseEffect from './ReactuseEffect'
 
 
 export const ReactList = () => {
@@ -103,7 +104,7 @@ export const ReactList = () => {
                     <br /> <hr />
 
                     <li><h3>React useEffect Hooks</h3></li>
-
+                    <ReactuseEffect/>
                     <br /> <hr />
 
                     <li><h3>React useContext Hook</h3></li>
