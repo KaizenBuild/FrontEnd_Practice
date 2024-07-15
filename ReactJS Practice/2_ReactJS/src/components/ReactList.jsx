@@ -21,6 +21,7 @@ import ReactuseContext from './ReactuseContext'
 import ReactuseRef from './ReactuseRef'
 import ReactuseReducer from './ReactuseReducer'
 import ReactuseMemo from './ReactuseMemo'
+import ReactcustomHook from './ReactcustomHook'
 
 
 export const ReactList = () => {
@@ -132,7 +133,7 @@ export const ReactList = () => {
                     <br /> <hr />
 
                     <li><h3>React Custom Hooks</h3></li>
-
+                    <ReactcustomHook/>
                     <br /> <hr />
 
                 </ol>
