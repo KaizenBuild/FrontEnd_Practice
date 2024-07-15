@@ -17,6 +17,7 @@ import ReactStyling from './ReactStyling'
 import ReactHooks from './ReactHooks'
 import ReactuseState from './ReactuseState'
 import ReactuseEffect from './ReactuseEffect'
+import ReactuseContext from './ReactuseContext'
 
 
 export const ReactList = () => {
@@ -108,7 +109,7 @@ export const ReactList = () => {
                     <br /> <hr />
 
                     <li><h3>React useContext Hook</h3></li>
-
+                    <ReactuseContext/>
                     <br /> <hr />
 
                     <li><h3>React useRef Hook</h3></li>
