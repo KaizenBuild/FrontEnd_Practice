@@ -18,6 +18,9 @@ import ReactHooks from './ReactHooks'
 import ReactuseState from './ReactuseState'
 import ReactuseEffect from './ReactuseEffect'
 import ReactuseContext from './ReactuseContext'
+import ReactuseRef from './ReactuseRef'
+import ReactuseReducer from './ReactuseReducer'
+import ReactuseMemo from './ReactuseMemo'
 
 
 export const ReactList = () => {
@@ -113,11 +116,11 @@ export const ReactList = () => {
                     <br /> <hr />
 
                     <li><h3>React useRef Hook</h3></li>
-
+                    <ReactuseRef/>
                     <br /> <hr />
 
                     <li><h3>React useReducer Hook</h3></li>
-
+                    <ReactuseReducer/>
                     <br /> <hr />
 
                     <li><h3>React useCallback Hook</h3></li>
@@ -125,7 +128,7 @@ export const ReactList = () => {
                     <br /> <hr />
 
                     <li><h3>React useMemo Hook</h3></li>
-
+                    <ReactuseMemo/>
                     <br /> <hr />
 
                     <li><h3>React Custom Hooks</h3></li>
